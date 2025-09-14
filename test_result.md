@@ -282,7 +282,12 @@ metadata:
 
 test_plan:
   current_focus:
-    - "All backend tasks completed successfully"
+    - "Homepage Hero Section & Navigation"
+    - "AI-Powered Recommendation Form"
+    - "Travel Packages Page"
+    - "Form Interactions & Validation"
+    - "UI/UX Elements & Responsive Design"
+    - "Cross-Page Navigation & Routing"
   stuck_tasks: []
   test_all: true
   test_priority: "high_first"
