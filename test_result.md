@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the Manzafir travel website backend comprehensively including health check, AI recommendations, travel packages, authentication flow, database connectivity, and error handling."
+user_problem_statement: "Test the Manzafir travel website comprehensively including frontend UI, AI recommendations form, travel packages page, navigation, form validation, responsive design, and cross-page functionality."
 
 backend:
   - task: "Health Check API"
