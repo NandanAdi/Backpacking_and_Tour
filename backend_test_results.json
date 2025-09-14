@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "total": 18,
+    "passed": 16,
+    "failed": 2,
+    "success_rate": 88.88888888888889
+  },
+  "results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "API is healthy",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:09.932033"
+    },
+    {
+      "test": "Initialize Sample Data",
+      "success": true,
+      "details": "Database already has 6 packages",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:10.223570"
+    },
+    {
+      "test": "Get Travel Packages",
+      "success": true,
+      "details": "Retrieved 6 packages",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:10.239438"
+    },
+    {
+      "test": "Database Connectivity",
+      "success": true,
+      "details": "Successfully initialized and retrieved data from MongoDB",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:10.239475"
+    },
+    {
+      "test": "AI Beach Recommendations",
+      "success": true,
+      "details": "Got 3 recommendations",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:16.214577"
+    },
+    {
+      "test": "AI Mountain Recommendations",
+      "success": true,
+      "details": "Got 3 recommendations",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:24.724497"
+    },
+    {
+      "test": "AI Historical Recommendations",
+      "success": true,
+      "details": "Got 3 recommendations",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.505239"
+    },
+    {
+      "test": "Auth - Missing Session ID",
+      "success": true,
+      "details": "Correctly rejected request without session ID",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.510887"
+    },
+    {
+      "test": "Auth - Invalid Session ID",
+      "success": false,
+      "details": "Expected 400/401, got 500",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.613531"
+    },
+    {
+      "test": "Auth - Logout Unauthenticated",
+      "success": true,
+      "details": "Correctly rejected unauthenticated logout",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.621566"
+    },
+    {
+      "test": "Protected - Get User Profile",
+      "success": true,
+      "details": "Correctly requires authentication",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.629389"
+    },
+    {
+      "test": "Protected - Update User Profile",
+      "success": false,
+      "details": "Expected 401, got 422",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.640019"
+    },
+    {
+      "test": "Protected - Get Potential Matches",
+      "success": true,
+      "details": "Correctly requires authentication",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.646907"
+    },
+    {
+      "test": "Protected - Match Action",
+      "success": true,
+      "details": "Correctly requires authentication",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.653404"
+    },
+    {
+      "test": "Error Handling - Empty Recommendations Request",
+      "success": true,
+      "details": "Correctly handled invalid input",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:30.658935"
+    },
+    {
+      "test": "Error Handling - Invalid Budget",
+      "success": true,
+      "details": "AI handled gracefully with fallback",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:35.409262"
+    },
+    {
+      "test": "Error Handling - Negative Group Size",
+      "success": true,
+      "details": "AI handled gracefully with fallback",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:42.370102"
+    },
+    {
+      "test": "Image Upload - No File",
+      "success": true,
+      "details": "Correctly rejected request without file",
+      "response": null,
+      "timestamp": "2025-09-14T17:34:42.377011"
+    }
+  ],
+  "timestamp": "2025-09-14T17:34:42.377194"
+}
